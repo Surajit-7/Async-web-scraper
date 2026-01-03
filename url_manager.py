@@ -26,10 +26,7 @@ def collect_urls(url:str, base_url:str)-> List:
         indexed_url_manager[idx] = urls
     return indexed_url_manager
     
-# url = "https://www.ibm.com/quantum/qiskit"
-# base_url = "https://www.ibm.com"
 
-# print(collect_urls(url=url, base_url=base_url))
 
 
 
